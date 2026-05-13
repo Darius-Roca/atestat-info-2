@@ -9,7 +9,7 @@ const scrollToTop = () => {
       }
 
   return (
-    <div className='bg-black p-10 border-t-2 border-gray-500 text-center rounded-xl mt-5 mb-5'>
+    <div className='bg-black p-10 border-t-2 border-gray-500 text-center rounded-xl mt-5'>
         <div className='flex flex-row items-center align-center justify-between gap-6'>
             <div className='font-bold text-2xl'>
                 Astronomie și astrofizică
