@@ -1,4 +1,3 @@
-import React from 'react'
 import { IoMdPlanet } from "react-icons/io";
 import GlareHover from './GlareHover';
 import { Link } from 'react-router-dom';

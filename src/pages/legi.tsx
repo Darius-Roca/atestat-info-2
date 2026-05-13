@@ -1,11 +1,4 @@
-import React from 'react'
 import { Particles } from '../components/Particles'
-import {
-  Card,
-  CardTitle,
-  CardDescription,
-  CardContent,
-} from '@/components/ui/card'
 import {
   Accordion,
   AccordionContent,

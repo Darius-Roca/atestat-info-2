@@ -1,14 +1,12 @@
-import React, { useState } from 'react'
+import  { useState } from 'react'
 import { Particles } from '../components/Particles'
 import {
   Card,
   CardTitle,
-  CardDescription,
+
   CardContent,
 } from '@/components/ui/card'
-import { Link } from 'react-router-dom'
 import CircularGallery from '@/components/CircularGallery'
-import { FaArrowsLeftRight } from "react-icons/fa6";
 import {
   Carousel,
   CarouselContent,

@@ -1,6 +1,6 @@
 import React from 'react'
 import GradientText from './GradientText'
-import { useParams, useLocation } from 'react-router-dom'
+import { useLocation } from 'react-router-dom'
 import { Link } from 'react-router-dom'
 import {GiSolarSystem} from 'react-icons/gi'
 import {
@@ -10,7 +10,6 @@ import {
   NavigationMenuLink,
   NavigationMenuList,
   NavigationMenuTrigger,
-  navigationMenuTriggerStyle,
 } from "@/components/ui/navigation-menu"
 
 const pages: { title: string; href: string; description: string }[] = [
@@ -57,7 +56,7 @@ export default function Header() {
             <NavigationMenuItem>
               <NavigationMenuTrigger><GiSolarSystem className='size-6'/></NavigationMenuTrigger>
               <NavigationMenuContent>
-                <ul className="column min-w-[400px] gap-2 ">
+                <ul className="column min-w-100 gap-2 ">
                   {pages.map((page) => (
                     <ListItem
                       key={page.title}
